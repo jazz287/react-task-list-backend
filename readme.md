@@ -18,6 +18,7 @@
 }
 ```
 
+
 ## Get all tasks
 ### Request
 ```http
@@ -62,8 +63,8 @@ Content-Type: application/json
 ### Response
 ```json
 {
-    status: "success",
-    task : {
+    "status": "success",
+    "task" : {
         "id": "3",
         "title": "Task 3",
         "description": "Task 3 description",
@@ -107,8 +108,8 @@ Content-Type: application/json
 ### Response
 ```json
 {
-    status: "success",
-    task : {
+    "status": "success",
+    "task" : {
         "id": "1",
         "title": "Task 1 updated",
         "description": "Task 1 description updated",
@@ -127,6 +128,6 @@ DELETE /tasks/1
 ### Response
 ```json
 {
-    status: "success"
+    "status": "success"
 }
 ```
