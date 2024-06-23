@@ -7,6 +7,8 @@
 4. The application will be running on `http://localhost:3000`
 5. You can use the API endpoints mentioned below to interact with the application
 
+Important Note: The application is made with `NodeJS using Express for RESTful route management` as an assignment backend for [React-Task-List](https://github.com/jazz287/react-task-list). The application is not connected to any database and the data is stored in memory. The data will be lost when the application is restarted. `It is HIGHLY recommended to use the application with the frontend application mentioned above.`
+
 ## Task Schema
 ```json
 {
