@@ -18,6 +18,10 @@
 }
 ```
 
+## Testing the application
+1. Run `npm start` to start the application
+2. Run `npm test` to run the tests in a separate terminal
+
 
 ## Get all tasks
 ### Request
