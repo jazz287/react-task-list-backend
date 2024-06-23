@@ -35,5 +35,5 @@ app.get("*", (req,res)=>{
 });
 
 app.listen(3000, ()=>{
-    console.log("Backend Server is running on port 3000");
+    console.log("Backend Server is running at http://localhost:3000");
 });

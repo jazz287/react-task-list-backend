@@ -52,7 +52,7 @@ POST /tasks
 Content-Type: application/json
 
 {
-    'id': '3',
+    "id": "3",
     "title": "Task 3",
     "description": "Task 3 description",
     "isCompleted": false,
